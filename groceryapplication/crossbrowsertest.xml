@@ -1,0 +1,23 @@
+<suite name="crossbrowsertesting" >
+
+<test name="chrometest">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="testscripts.Hometest">
+</class>
+
+</classes>
+</test>
+
+<test name="firefoxtest">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+
+<class name="testscripts.Logintest">
+</class>
+<class name="testscripts.Hometest">
+</class>
+
+</classes>
+</test>
+</suite>

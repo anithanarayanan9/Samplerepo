@@ -1,0 +1,23 @@
+<suite name="multibrowsertesting" parallel="tests" thread-count="2">
+
+<test name="chrometest" thread-count="4">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="testscripts.Hometest">
+</class>
+
+</classes>
+</test>
+
+<test name="firefoxtest" thread-count="4">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+
+<class name="testscripts.Logintest">
+</class>
+<class name="testscripts.Hometest">
+</class>
+
+</classes>
+</test>
+</suite>

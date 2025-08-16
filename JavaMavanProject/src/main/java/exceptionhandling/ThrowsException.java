@@ -11,7 +11,7 @@ public class ThrowsException {
 	}
 	else
 	{
-		//throw new ArithmeticException("Age below 18");
+		throw new ArithmeticException("Age below 18");
 	}
 		
 	}
