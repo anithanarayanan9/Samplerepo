@@ -8,8 +8,10 @@
  
   <test thread-count="5" name="Test">
     <classes>
-        <class name="testscripts.Logintest">
-    
+        <class name="testscripts.CategoryTest"> </class>
+        <class name="testscripts.Hometest"> </class>
+        <class name="testscripts.Logintest"> </class>
+        <class name="testscripts.Managenewstest">
         </class>
     </classes>
   </test> <!-- Test -->
